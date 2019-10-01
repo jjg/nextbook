@@ -15,3 +15,5 @@ On that front (prototype) there's plenty of directions to explore.  Maybe the fi
 After that I should probably turn my attention to getting [RESTMetal]() working well enough to provide at least the essential local resource access so I can start fleshing-out the NextBook-specific NextCloud apps (restart/shutdown, WiFi config and a battery monitor are first on the list).  
 
 It would also be fun to start pieceing a machine together, just enough Debian to make Firefox run, and play with Firefox configuration to see how far we can get w/o having to modify any actual code.
+
+Update git params.
