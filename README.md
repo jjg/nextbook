@@ -5,16 +5,16 @@ A privacy-respecting alternative to Google's [Chromebook](https://en.wikipedia.o
 
 ## Why?
 
-For many computer users the Chromebook is a great solution.  They are inexpensive, require almost no maintenance and are interchangeable in the sense that you can log-on to any Chromebook and almost immediately pick-up where you left off on the last one.  
+For many computer users the Chromebook is a great solution.  They are inexpensive, require almost no maintenance and are interchangeable in the sense that you can log-on to any Chromebook and immediately pick-up where you left off.  
 
-The downside of all this convenience is that everything you relies on Google, and there are numerous, well-documented reasons you might want to avoid this.
+The downside to all this convenience is that everything you do with it relies on Google, and there are [numerous, well-documented reasons](https://en.wikipedia.org/wiki/Privacy_concerns_regarding_Google) you might want to avoid this.
 
 It's hard for me to recommend Chromebooks to people because of these privacy concerns, but at the same time I'm not aware of any alternative that provides the essential safety and low cost of ownership.  This tension is the motivation behind NextBook.
 
 
 ## Overview
 
-NextBook provides the Chromebook experience without requiring the user to trust proprietary software or services.  In place of ChromeOS is a Debian-based Linux distribution that can be installed on almost any hardware to create a Chromebook-like device.  In place of Google's services and applications, NextBook uses [NextCloud](), and a custom set of NextCloud applications to provide NextBook-specific features such as system updates, access to local storage, battery level, etc.
+NextBook provides the Chromebook experience without requiring the user to trust proprietary software or services.  In place of ChromeOS is a Debian-based Linux distribution that can be installed on commodity hardware to create a Chromebook-like device.  In place of Google's services and applications, NextBook uses [NextCloud](https://nextcloud.com/), and a set of custom NextCloud applications to provide NextBook-specific features such as network configuration, power management, access to local storage, etc.
 
 NextBook ships configured for a default NextCloud server provided by the project.  This allows the user to get up-and-running with the same amount of effort as a Chromebook.  For greater privacy and control, NextBook can deploy a private NextCloud server to one of several hosting services automatically.  If you already have a NextCloud server, NextBook can connect to that as well<sup>[1](#fn1)</sup>
 
