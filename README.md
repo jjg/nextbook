@@ -16,7 +16,7 @@ It's hard for me to recommend Chromebooks to people because of these privacy con
 
 NextBook provides the Chromebook experience without requiring the user to trust proprietary software or services.  In place of ChromeOS is a Debian-based Linux distribution that can be installed on commodity hardware to create a Chromebook-like device.  In place of Google's services and applications, NextBook uses [NextCloud](https://nextcloud.com/), and a set of custom NextCloud applications to provide NextBook-specific features such as network configuration, power management, access to local storage, etc.
 
-NextBook ships configured for a default NextCloud server provided by the project.  This allows the user to get up-and-running with the same amount of effort as a Chromebook.  For greater privacy and control, NextBook can deploy a private NextCloud server to one of several hosting services automatically.  If you already have a NextCloud server, NextBook can connect to that as well<sup>[1](#fn1)</sup>
+NextBook ships configured for a default NextCloud server provided by the project.  This allows the user to get up-and-running with the same amount of effort as a Chromebook (or less).  For greater privacy and control, NextBook can deploy a private NextCloud server to one of several hosting services automatically.  Of course if you already have a NextCloud server, NextBook can connect to that as well<sup>[1](#fn1)</sup>
 
 
 ## Details
@@ -36,6 +36,6 @@ NextBook is being built using the following projects:
 
 Once authenticated, the user is presented with a "launcher" as the default NextCloud application.  The exact details of this are not yet determined but any existing NextCloud functionality that meets the criteria will be considered first.  In addition to existing NextCloud applications, several new applications will need to be developed to provide a user interface for the NextBook's local environment.  These include network configuration, battery level monitoring (if applicable), resetting the NextBook (akin to ChromeOS's "powerwash") and other tools as needed.
 
-
+---
 
 <a name="fn1">1</a>: For full NextBook functionality, NextBook applications will need to be installed on your NextCloud instance.
