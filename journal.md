@@ -17,3 +17,12 @@ After that I should probably turn my attention to getting [RESTMetal]() working 
 It would also be fun to start pieceing a machine together, just enough Debian to make Firefox run, and play with Firefox configuration to see how far we can get w/o having to modify any actual code.
 
 Update git params.
+
+
+## 10132019
+
+Found a cool little project that has a lot of the pieces I need to put this together:
+
+[https://brennan.io/2017/06/14/alien-computer-card/](https://brennan.io/2017/06/14/alien-computer-card/)
+
+It's [Arch]() based, so that's a pretty big departure from what I'm most familiar with (Debian) but if I can learn enough to make the hardware work, that'a all I really need out of the basic distro.
